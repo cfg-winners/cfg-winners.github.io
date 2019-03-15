@@ -1,8 +1,18 @@
+html {
+  background-image: url(background.jpg);
+}
+
+
+
 body {
   background-color: #DF551D;
+  text-align: center;
 }
-  h1 {
-    color: purple;
+
+h1 {
+  color: purple;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
   }
 
 h2 {
