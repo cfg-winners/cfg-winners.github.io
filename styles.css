@@ -2,11 +2,11 @@ html {
   background-image: url(background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 150%;
+  padding: 20px;
 }
 
 header {
-  scroll-behavior: smooth;
+  background-color: rgba(0, 0, 0, 0.5)
 }
 
 body {
@@ -16,8 +16,6 @@ body {
 
 h1 {
   color: purple;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin-top: 10px;
   }
 
 h2 {
