@@ -2,16 +2,18 @@ html {
   background-image: url(background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 20px;
+  padding: 5px 20px 20px;
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.5)
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 body {
   background-color: #DF551D;
   text-align: center;
+  border-radius: 5px;
 }
 
 h1 {
