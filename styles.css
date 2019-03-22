@@ -14,21 +14,25 @@ html {
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
 }
 
 body {
-  background-color: #DF551D;
+  background-color: #ffffff;
   text-align: center;
   border-radius: 5px;
 }
 
 h1 {
-  color: purple;
+  color: #164187;
+  background-color: #ffffff
   }
 
 h2 {
-  background-color: blue;
-  color: #c68d83;
+  background-color: #ffffff;
+  color: #164187;
+}
+p{
+  color: #ffb43d;
 }
