@@ -71,3 +71,15 @@ li {
   background-color: #ffffff;
   border-radius: 8px;
 }
+
+button {
+  margin: 20px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: rgb(255, 180, 61, 0.5);
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: rgb(255, 180, 61);
+}
