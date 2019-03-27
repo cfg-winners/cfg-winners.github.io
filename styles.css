@@ -11,6 +11,8 @@ html {
   background-image: url(0.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 1%;
+  text-align: center;
 }
 
 header {
@@ -25,33 +27,23 @@ header:hover {
 
 body {
   text-align: center;
-  border-radius: 8px;
 }
 
 h1 {
   color: #164187;
   background-color: #ffffff;
-  text-align: center;
   border-radius: 8px;
   }
 
 h2 {
-  background-color: #ffffff;
   color: #164187;
   box-sizing: content-box;
-  width: 500px;
-  text-align: center;
-  margin-left: 25%;
-  border-radius: 8px;
 }
 
 p {
   color: #ffb43d;
   background-color: #ffffff;
   box-sizing: content-box;
-  width: 500px;
-  margin-left: 25%;
-  border-radius: 8px;
 }
 
 ul {
@@ -75,7 +67,7 @@ li {
 }
 
 .info {
-  padding: 1%;
+  padding: 1% 2%;
   background-color: #ffffff;
   border-radius: 8px;
 }
