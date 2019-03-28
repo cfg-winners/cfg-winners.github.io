@@ -114,3 +114,14 @@ button {
   background-color: rgb(255, 180, 61, 0.5);
   font-size: 20px;
 }
+
+@media (max-width: px) {
+
+
+}
+
+
+@media (max-height: px) {
+
+
+}
