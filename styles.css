@@ -72,6 +72,40 @@ li {
   border-radius: 8px;
 }
 
+.columns {
+  column-count: 3;
+  margin: 20px 0;
+  position: relative; /* ?? */
+}
+
+img {
+  border-radius: 8px;
+  height: 160px;
+  width: 150px;
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;*/
+}
+
+.overlay {
+  background-color: #ffb43d;
+  color: #164187;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  height: 160px;
+  width: 150px;
+  display: inline-block;
+}
+
+img:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+
+
+
+
 button {
   margin: 20px;
   border-radius: 8px;
