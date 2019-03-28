@@ -3,6 +3,7 @@
 <head>
   <link rel="stylesheet" href="styles.css" />
   <title>Career Matcher</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 <body>
   <ul>
@@ -25,6 +26,20 @@
     add js to show/hide info about us</p>
   </div>
   <br />
-  <button>FIND YOUR CAREER</button>
+  <button>CLICK HERE</button>
+
+  <script>
+  $("button").hover(function(){
+    $(this).css("background-color", "rgb(255, 180, 61)");
+    }, function(){
+    $(this).css("background-color", "rgb(255, 180, 61, 0.5)");
+    });
+
+    $("button").hover(function(){
+      $(this).text("TO FIND YOUR CAREER");
+      }, function(){
+      $(this).text("CLICK HERE");
+      });
+  </script>
 </body>
 </html>
