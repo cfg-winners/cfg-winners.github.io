@@ -74,8 +74,9 @@ li {
 
 .columns {
   column-count: 3;
+  -webkit-column-count: 3;
   margin: 20px 0;
-  position: relative; /* ?? */
+  /*position: relative; /* ?? */
 }
 
 img {
@@ -83,18 +84,21 @@ img {
   height: 160px;
   width: 150px;
 	-webkit-transition: all .2s ease;
-	transition: all .2s ease;*/
+	transition: all .2s ease;
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
 
 .overlay {
-  background-color: #ffb43d;
+  background-color: rgb(255, 180, 61, 0.3);
   color: #164187;
   top: 0;
   left: 0;
   border-radius: 8px;
   height: 160px;
   width: 150px;
-  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img:hover {
