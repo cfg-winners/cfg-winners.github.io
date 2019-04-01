@@ -1,6 +1,12 @@
+html {
+  font-family: sans-serif;
+}
+
 header {
   background-repeat: no-repeat;
-  height: 200px;
+  background-size: cover;
+  padding: 10% 20%;
+  border-radius: 8px;
 }
 
 h1 {
