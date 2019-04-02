@@ -1,7 +1,5 @@
 html {
   font-family: sans-serif;
-  font-size: 30px;
-
 }
 
 header {
@@ -13,6 +11,7 @@ header {
   right: -10px;*/
   padding: 6% 20%;
   border-radius: 8px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -39,4 +38,14 @@ p {
   margin: auto;
   padding: 20px;
   font-size: 20px;
+}
+
+
+@media (max-width: 550px) {
+  header {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
 }
