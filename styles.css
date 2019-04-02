@@ -1,11 +1,3 @@
-/* IDEAS
-- 2 pages: about us (with blog if there's time) on page 2
-https://meetamentor.co.uk/ i've seen this website, looks cool and the content reasonable
-- create identities and use real people
--
--
-*/
-
 html {
   font-family: sans-serif;
   background-image: url(0.jpg);
@@ -108,26 +100,20 @@ img.us:hover {
 }
 /*fix */
 
-
-button {
-  margin: 20px;
+#careers-choice {
+  padding: 1% 2%;
+  background-color: #ffffff;
   border-radius: 8px;
-  color: #ffffff;
-  background-color: rgb(255, 180, 61, 0.5);
-  font-size: 20px;
 }
 
-.slideshow {
+#slideshow {
   position: relative;
   margin: auto;
 }
 
-/*.slide {
-  display: none;
-}*/
-
 .sspic {
-  height: 300px;
+  height: 400px;
+  width: 600px;
   border-radius: 8px;
 }
 
@@ -139,20 +125,43 @@ button {
 
 }
 
+/*.slide {
+  display: none;
+}*/
 
 
+button {
+  margin: 20px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: rgb(255, 180, 61, 0.5);
+  font-size: 20px;
+}
 
+
+@media (max-width: 650px) {
+  .sspic {
+      height: 300px;
+      width: 450px;
+  }
+}
 
 @media (max-width: 500px) {
   img {
     height: 100px;
     width: 94px;
-}
+  }
 
-.caption {
-  height: 80px;
-  width: 74px;
-  font-size: 12px;
-  overflow: auto;
-  transform: translateY(-104%);
+  .caption {
+    height: 80px;
+    width: 74px;
+    font-size: 12px;
+    overflow: auto;
+    transform: translateY(-104%);
+  }
+
+  .sspic {
+    height: 200px;
+    width: 300px;
+  }
 }
