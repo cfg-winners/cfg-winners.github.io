@@ -1,15 +1,18 @@
 html {
   font-family: sans-serif;
   font-size: 30px;
+
 }
 
 header {
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  top: -10px;
+/*  left: -10px;
+  right: -10px;*/
   padding: 6% 20%;
   border-radius: 8px;
-  text-align: center;
-
 }
 
 h1 {
