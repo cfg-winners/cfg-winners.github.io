@@ -24,6 +24,17 @@ h1 {
   margin: auto;
 }
 
-textbox {
+.job {
+  border: 3px solid rgb(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+}
 
+.job:hover {
+  border: border: 3px solid rgb(255, 255, 255);
+}
+
+p {
+  margin: auto;
+  padding: 20px;
+  font-size: 20px;
 }
