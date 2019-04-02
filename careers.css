@@ -13,6 +13,7 @@ header {
   right: -10px;*/
   padding: 6% 20%;
   border-radius: 8px;
+  text-align: center;
 }
 
 h1 {
@@ -25,12 +26,13 @@ h1 {
 }
 
 .job {
-  border: 3px solid rgb(255, 255, 255, 0.5);
+  border-radius: 8px;
   margin-bottom: 10px;
 }
 
 .job:hover {
-  border: border: 3px solid rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 p {
