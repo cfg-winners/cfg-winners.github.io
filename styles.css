@@ -78,7 +78,7 @@ li {
   margin: 20px 0;
 }
 
-img {
+img.us {
   border-radius: 8px;
   height: 160px;
   width: 150px;
@@ -86,7 +86,7 @@ img {
 	transition: all .2s ease;
 }
 
-img:hover {
+img.us:hover {
 	-webkit-transform: scale(1.2);
 	transform: scale(1.2);
 }
@@ -116,6 +116,32 @@ button {
   background-color: rgb(255, 180, 61, 0.5);
   font-size: 20px;
 }
+
+.slideshow {
+  position: relative;
+  margin: auto;
+}
+
+/*.slide {
+  display: none;
+}*/
+
+.sspic {
+  height: 300px;
+  border-radius: 8px;
+}
+
+.text {
+
+}
+
+.numbertext {
+
+}
+
+
+
+
 
 @media (max-width: 500px) {
   img {
