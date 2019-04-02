@@ -111,18 +111,26 @@ img.us:hover {
   margin: auto;
 }
 
-.sspic {
+.carouselpic {
   height: 400px;
   width: 600px;
   border-radius: 8px;
 }
 
-.text {
+.carouselcaption {
 
+}
+
+h5 {
+  color: #164187;
 }
 
 .numbertext {
 
+}
+
+.carousel-control-next {
+  color: #164187
 }
 
 /*.slide {
@@ -140,7 +148,7 @@ button {
 
 
 @media (max-width: 650px) {
-  .sspic {
+  .carouselpic {
       height: 300px;
       width: 450px;
   }
@@ -160,7 +168,7 @@ button {
     transform: translateY(-104%);
   }
 
-  .sspic {
+  .carouselpic {
     height: 200px;
     width: 300px;
   }
