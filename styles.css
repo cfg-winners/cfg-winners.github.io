@@ -8,7 +8,6 @@ html {
 header {
   padding: 23% 20%;
   background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 8px;
 }
 
 header:hover {
@@ -23,7 +22,6 @@ body {
 h1 {
   color: #164187;
   background-color: #ffffff;
-  border-radius: 8px;
   }
 
 h2 {
@@ -44,7 +42,6 @@ ul {
   width: 130px;
   border: 3px solid #164187;
   float: right;
-  border-radius: 8px;
 }
 
 li {
@@ -61,7 +58,6 @@ li {
   margin: 0 1%;
   padding: 1% 2%;
   background-color: red;
-  border-radius: 8px;
 }
 
 #slideshow {
@@ -72,7 +68,6 @@ li {
 .carouselpic {
   height: 400px;
   width: 600px;
-  border-radius: 8px;
   opacity: 0.6;
 }
 
@@ -105,7 +100,6 @@ h5 {
   margin: 0 1%;
   padding: 1% 2%;
   background-color: #ffffff;
-  border-radius: 8px;
 }
 
 .columns {
@@ -115,7 +109,7 @@ h5 {
 }
 
 img.us {
-  border-radius: 8px;
+  border-radius: 100px;
   height: 160px;
   width: 150px;
 	-webkit-transition: all .2s ease;
@@ -131,7 +125,6 @@ img.us:hover {
   background-color: rgb(255, 180, 61, 0.9);
   color: #164187;
   font-size: 15px;
-  border-radius: 8px;
   height: 140px;
   width: 130px;
   padding: 10px;
@@ -159,7 +152,6 @@ footer:hover {
 
 button {
   margin: 20px;
-  border-radius: 8px;
   color: #ffffff;
   background-color: rgb(255, 180, 61, 0.5);
   font-size: 20px;
