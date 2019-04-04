@@ -29,7 +29,8 @@
   <header>
     <h1>TECHNOLOGY</h1>
   </header>
-  <p id="career-definition">"the application of scientific knowledge for practical purposes, especially in industry"</p>
+  
+  <p id="career-definition"></p>
 
   <div class="job one" data-text="JOB TITLE">
     <h3>Job title</h3>
@@ -50,6 +51,21 @@
   <div class="back-button">
     <a href="index.html#careers-choice">BACK</a>
   </div>
+
+  <script>
+  var i = 0, text;
+  text = "the application of scientific knowledge for practical purposes, especially in industry"
+
+  function typing() {
+    if (i<text.length) {
+      document.getElementById("career-definition").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typing, 90);
+    }
+  }
+
+  typing();
+  </script>
 
 </body>
 </html>
