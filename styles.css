@@ -76,12 +76,16 @@ a {
   opacity: 0.6;
 }
 
+.carouselpic:hover {
+  opacity: 1;
+}
+
 .carouselcaption {
   transform: translateY(-130%);
 }
 
 .carousel-indicators {
-  transform: translateY(-30%);
+  transform: translateY(-40%);
 }
 
 h5 {
@@ -90,6 +94,10 @@ h5 {
 
 .sr-only {
   color: #164187
+}
+
+.carousel-control-next-icon {
+  opacity: 1;
 }
 
 /*.slide {

@@ -27,8 +27,8 @@
         Looking for your dream career? Well look no further. We... <br />
         Simply click 'next' below to find your career.</p>
 
-  <div class="carousel">
-    <div id="carouselaption" class="carousel slide" data-ride="carousel">
+  <div id="mycarousel">
+    <div id="carouselcaption" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselcaption" data-slide-to="1" class="active"></li>
         <li data-target="#carouselcaption" data-slide-to="2"></li>
@@ -91,11 +91,11 @@
         </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouseLCaptions" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#carouselcaption" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#carouselcaption" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -150,40 +150,20 @@
 
   <script>
 
-  $('.caption').hide();
+  $('#mycarousel').carousel();
 
-$('#sidebar').mouseover(function () {
-      $('.us').show('.caption');
-});
-$('#sidebar').mouseout(function () {
-      $('.us').hide('.caption');
+  $('.carousel-item').click(function() {
+      $('#mycarousel').carousel('1');
+  });
 
+  $('.carousel-control-prev').click(function () {
+      $('#mycarousel').carousel('prev');
+    });
+  $('.carousel-control-next').click(function () {
+      $('#mycarousel').carousel('next');
     });
   </script>
 
-<!--  <script>
-    $('.carousel').carousel('cycle')({
-      interval:
-
-    })
-
-
-  </script>
-<!--  <button>CLICK HERE</button>
-
-  <script>
-  $("button").hover(function(){
-    $(this).css("background-color", "rgb(255, 180, 61)");
-    }, function(){
-    $(this).css("background-color", "rgb(255, 180, 61, 0.5)");
-    });
-
-  $("button").hover(function(){
-    $(this).text("TO FIND YOUR CAREER");
-    }, function(){
-    $(this).text("CLICK HERE");
-    });
-  </script> -->
 </body>
 </html>
 
