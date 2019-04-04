@@ -8,8 +8,6 @@ header {
   background-size: cover;
   position: relative;
   top: -10px;
-/*  left: -10px;
-  right: -10px;*/
   padding: 6% 20%;
   font-size: 30px;
   text-align: center;
@@ -25,11 +23,58 @@ h1 {
 
 .job {
   margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .job:hover {
   border: 3px solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
+}
+
+.one {
+  background-image: url(0.jpg);
+}
+.two {
+  background-image: url(0.jpg);
+}
+.three {
+  background-image: url(0.jpg);
+}
+
+.job:before {
+  content: attr(data-text);
+  text-align: center;
+  line-height: 400%;
+  font-size: 25px;
+}
+
+.job:before,
+.job:after {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: inherit;
+  transition: .3s;
+}
+
+.job:after {
+  display: flex;
+  text-align: center;
+  background: #000;
+  transform: translateY(100%);
+}
+
+.job:hover:before {
+  transform: translateY(-100%);
+}
+
+.job:hover:after {
+  transform: translateY(0%);
 }
 
 h3 {
@@ -49,5 +94,9 @@ p {
   }
   p {
     font-size: 15px;
+  }
+  .job:before {
+    line-height: 300%
+    font-size: 20px;
   }
 }
