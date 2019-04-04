@@ -135,17 +135,31 @@
         </div>
       </div>
     </div>
+
+    <div id='space-filler'>
+      <br /><br /><br /><br /><br />
+    </div>
     <!-- add js to show/hide info about us -->
 
   </div>
   <br />
 
   <footer>
-    thanks <br>
-    contact us <br>
-    on all pages?
+    contact us
   </footer>
 
+  <script>
+
+  $('.caption').hide();
+
+$('#sidebar').mouseover(function () {
+      $('.us').show('.caption');
+});
+$('#sidebar').mouseout(function () {
+      $('.us').hide('.caption');
+
+    });
+  </script>
 
 <!--  <script>
     $('.carousel').carousel('cycle')({
