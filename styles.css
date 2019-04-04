@@ -3,6 +3,7 @@ html {
   background-image: url(0.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -53,6 +54,10 @@ li {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 #careers-choice {
   margin: 0 1%;
@@ -96,7 +101,7 @@ h5 {
 }*/
 
 
-.organisation-info {
+#organisation-info {
   margin: 0 1%;
   padding: 1% 2%;
   background-color: #ffffff;
