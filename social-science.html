@@ -33,6 +33,9 @@
   </header>
 
   <p id="career-definition"></p>
+  <div id="career-definition-credit">
+    <p id="googletext">as defined by</p><img src="google.png" id="google">
+  </div>
 
   <div class="job one" data-text="JOB TITLE">
     <h3>Job title</h3>
@@ -62,10 +65,23 @@
     if (i<text.length) {
       document.getElementById("career-definition").innerHTML += text.charAt(i);
       i++;
-      setTimeout(typing, 90);
+      setTimeout(typing, 53);
     }
   }
   typing();
+
+  $(document).ready(function() {
+     $("#career-definition").mousemove(function(e) {
+          $('#career-definition-credit').css({
+              left: e.pageX + 15,
+              top: e.pageY + 15
+          }).css('opacity', '1');
+      });
+
+      $("#career-definition").mouseout(function() {
+          $('#career-definition-credit').css('opacity', '0');
+      });
+  });
   </script>
 
 </body>

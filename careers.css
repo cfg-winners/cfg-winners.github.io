@@ -28,9 +28,31 @@ h1 {
   margin: auto .5%;
   margin-bottom: 10px;
   padding: 1%;
-  background-color: rgb(255, 255, 255, 0.5);
+  background-color: rgb(255, 255, 255, 0.4);
   color: rgb(5, 8, 66);
-  overflow: hidden;
+}
+
+#career-definition-credit {
+  opacity: 0;
+  z-index: 1000;
+  border: 3px solid rgb(255, 255, 255);
+  display: inline-block;
+  padding: 4px;
+  background-color: rgb(255, 255, 255, 0.4);
+  position: absolute;
+  text-align: center;
+  transition: opacity 0.3s;
+}
+
+#googletext {
+  padding: 0;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+
+#google {
+  height: 30px;
 }
 
 .job {
