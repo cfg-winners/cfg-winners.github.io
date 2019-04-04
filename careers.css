@@ -32,16 +32,11 @@ h1 {
 .job:hover {
   border: 3px solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
+  opacity: 1;
 }
 
-.one {
-  background-image: url(0.jpg);
-}
-.two {
-  background-image: url(0.jpg);
-}
-.three {
-  background-image: url(0.jpg);
+.one, .two, .three {
+  opacity: .5;
 }
 
 .job:before {
