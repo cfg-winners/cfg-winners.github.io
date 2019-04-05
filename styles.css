@@ -154,6 +154,7 @@ img.us:hover .caption {
 */
 
 footer {
+  margin-top: 1%;
   background-color: rgb(22, 65, 135, 0.5);
   color: #fff;
   font-size: 13px;
