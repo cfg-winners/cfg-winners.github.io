@@ -73,36 +73,33 @@ a {
 .carouselpic {
   height: 400px;
   width: 600px;
+}
+
+.carousel-item {
   opacity: 0.6;
 }
 
-.carouselpic:hover {
+.carousel-item:hover {
   opacity: 1;
 }
 
 .carouselcaption {
   transform: translateY(-130%);
-}
-
-.carousel-indicators {
-  transform: translateY(-40%);
+  padding: 0 10%;
 }
 
 h5 {
   color: #164187;
 }
 
-.sr-only {
-  color: #164187
+.carousel-indicators {
+  transform: translateY(-40%);
+  margin: 0 auto;
 }
 
-.carousel-control-next-icon {
-  opacity: 1;
+.indicator {
+  padding: 1%;
 }
-
-/*.slide {
-  display: none;
-}*/
 
 
 #organisation-info {
@@ -192,5 +189,9 @@ footer:hover {
   .carouselpic {
     height: 200px;
     width: 300px;
+  }
+
+  .carouselcaption {
+    padding: 0 12%;
   }
 }
