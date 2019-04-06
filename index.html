@@ -12,7 +12,7 @@
     <li><a href="#organisation-info">About Us</a></li>
     <li><a href="#contact-us">Contact Us</a></li>
     <li><a href="#head">Home</a></li>
-  
+
 
 
   </ul>
@@ -146,20 +146,21 @@
 
   <script>
 
-  $('#mycarousel').carousel({
-    interval: 3000
-  });
+  var slideIndex = 0;
+showSlides();
 
-  $('.carousel-item').click(function() {
-      $('#mycarousel').carousel('1');
-  });
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("carousel-item");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000);
+}
 
-  $('.carousel-control-prev').click(function () {
-      $('#mycarousel').carousel('prev');
-    });
-  $('.carousel-control-next').click(function () {
-      $('#mycarousel').carousel('next');
-    });
 
   </script>
 
