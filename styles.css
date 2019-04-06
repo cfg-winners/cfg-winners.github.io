@@ -60,15 +60,12 @@ a {
 
 
 #careers-choice {
-  margin: 0 1%;
+  margin: 1% 1% 0 1%;
   padding: 1% 2%;
   background-color: red;
 }
 
-#slideshow {
-  position: relative;
-  margin: auto;
-}
+
 
 .carouselpic {
   height: 400px;
