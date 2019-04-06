@@ -16,7 +16,7 @@
   </ul>
 
   <header>
-    <h1>Welcome!<br />(Short Intro)</h1>
+    <h1>WELCOME!<br />(Short Intro)</h1>
   </header>
 
   <div id="careers-choice">
@@ -103,7 +103,7 @@
   <br />
 
   <div id="organisation-info">
-    <h2> Who we are?</h2>
+    <h2> Who are we?</h2>
     <p>(Our organisation: name, what we do, why, beliefs etc)</p><br />
     <h2>Meet the team</h2>
     <p>We're a group of girls, who decided to take on a new challenge and begin a new path into the world of tech, and our first challenge we set ourselves is to build a website which we think will contribute to our society</p>
@@ -148,20 +148,20 @@
   </footer>
 
   <script>
-  var slideIndex = 0;
-    showSlides();
+    var slideIndex = 0;
+      showSlides();
 
-  function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("carousel-item");
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 3000);
-  }
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("carousel-item");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 3000);
+      }
   </script>
 
 </body>
