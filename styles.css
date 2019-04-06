@@ -45,8 +45,8 @@ ul {
   background-color: #ffffff;
   margin: 0;
   padding: 0;
-  width: auto;
-  /*border: 3px solid #164187;*/
+  width: 100%;
+  border-bottom: 1px solid #164187;
   overflow: hidden;
 }
 
@@ -72,6 +72,11 @@ a:hover {
 
 a:active {
   color: red;
+}
+
+#nav {
+  position: fixed;
+  z-index: 1;
 }
 
 
@@ -107,6 +112,7 @@ h5 {
   font-size: 40px;
   background-color: #d4d6d8;
   background-size: contain;
+  margin: 1% 20%;
 }
 
 
