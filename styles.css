@@ -9,10 +9,12 @@ html {
 header {
   padding: 24% 20%;
   background-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
 }
 
 header:hover {
   background-color:  rgba(255, 255, 255, 0.5);
+
 }
 
 body {
@@ -38,36 +40,36 @@ p {
 ul {
   background-color: #ffffff;
   list-style-type: none;
-  margin-top: 0;
+  margin: 0;
   padding: 0;
-  width: 130px;
+  width: auto;
   border: 3px solid #164187;
-  float: right;
+  overflow: hidden;
+
 }
 
 li {
   display: block;
   color: #164187;
-  padding: 8px 16px;
+  padding:0;
   text-decoration: none;
-  width: 100px;
-  text-align: center;
+  margin:0;
+  list-style-type: none;
+  float: right;
 }
 
-a {
-  text-decoration: none;
+li a {
+  display: inline-block;
+  color: #164187;
+  text-align: center;
+  padding: 14px 16px;
 }
 
 
 #careers-choice {
-  margin: 0 1%;
+  margin: 1% 1% 0 1%;
   padding: 1% 2%;
   background-color: red;
-}
-
-#slideshow {
-  position: relative;
-  margin: auto;
 }
 
 .carouselpic {
@@ -84,7 +86,6 @@ a {
 }
 
 .carouselcaption {
-  transform: translateY(-130%);
   padding: 0 10%;
 }
 
