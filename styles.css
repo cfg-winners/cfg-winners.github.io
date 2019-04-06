@@ -73,28 +73,33 @@ a {
 .carouselpic {
   height: 400px;
   width: 600px;
+}
+
+.carousel-item {
   opacity: 0.6;
+}
+
+.carousel-item:hover {
+  opacity: 1;
 }
 
 .carouselcaption {
   transform: translateY(-130%);
-}
-
-.carousel-indicators {
-  transform: translateY(-30%);
+  padding: 0 10%;
 }
 
 h5 {
   color: #164187;
 }
 
-.sr-only {
-  color: #164187
+.carousel-indicators {
+  transform: translateY(-40%);
+  margin: 0 auto;
 }
 
-/*.slide {
-  display: none;
-}*/
+.indicator {
+  padding: 1%;
+}
 
 
 #organisation-info {
@@ -146,6 +151,7 @@ img.us:hover .caption {
 */
 
 footer {
+  margin-top: 1%;
   background-color: rgb(22, 65, 135, 0.5);
   color: #fff;
   font-size: 13px;
@@ -183,5 +189,9 @@ footer:hover {
   .carouselpic {
     height: 200px;
     width: 300px;
+  }
+
+  .carouselcaption {
+    padding: 0 12%;
   }
 }
