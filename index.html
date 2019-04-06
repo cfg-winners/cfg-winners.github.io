@@ -26,59 +26,59 @@
   <div id="mycarousel">
     <div id="carouselcaption" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#carouselcaption" data-slide-to="1" class="indicator active"></li>
+        <li data-target="#carouselcaption" data-slide-to="0" class="indicator active"></li>
+        <li data-target="#carouselcaption" data-slide-to="1" class="indicator"></li>
         <li data-target="#carouselcaption" data-slide-to="2" class="indicator"></li>
         <li data-target="#carouselcaption" data-slide-to="3" class="indicator"></li>
         <li data-target="#carouselcaption" data-slide-to="4" class="indicator"></li>
         <li data-target="#carouselcaption" data-slide-to="5" class="indicator"></li>
         <li data-target="#carouselcaption" data-slide-to="6" class="indicator"></li>
-        <li data-target="#carouselcaption" data-slide-to="7" class="indicator"></li>
 
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" data-interval="3000">
           <a href="art.html"><img src="art.jpg" class="carouselpic" alt="ART"></a>
           <div class="carouselcaption">
             <h5>ART</h5>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="3000">
           <a href="engineering.html"><img src="engineering.jpg" class="carouselpic" alt="ENGINEERING"></a>
           <div class="carouselcaption">
             <h5>ENGINEERING</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="3000">
           <a href="finance.html"><img src="finance.jpg" class="carouselpic" alt="FINANCE"></a>
           <div class="carouselcaption">
             <h5>FINANCE</h5>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="3000">
           <a href="medicine.html"><img src="medicine.jpg" class="carouselpic" alt="MEDICINE"></a>
           <div class="carouselcaption">
             <h5>MEDICINE</h5>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="3000">
           <a href="sceince.html"><img src="science.jpg" class="carouselpic" alt="SCIENCE"></a>
           <div class="carouselcaption">
             <h5>SCIENCE</h5>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="3000">
           <a href=social-science.html""><img src="social-science.jpg" class="carouselpic" alt="SOCIAL SCIENCE"></a>
           <div class="carouselcaption">
             <h5>SOCIAL SCIENCE</h5>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="3000">
           <a href="technology.html"><img src="tech.jpg" class="carouselpic" alt="TECHNOLOGY"></a>
           <div class="carouselcaption">
             <h5>TECHNOLOGY</h5>
@@ -142,7 +142,9 @@
 
   <script>
 
-  $('#mycarousel').carousel();
+  $('#mycarousel').carousel({
+    interval: 3000
+  });
 
   $('.carousel-item').click(function() {
       $('#mycarousel').carousel('1');
