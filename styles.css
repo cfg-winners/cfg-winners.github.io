@@ -145,6 +145,25 @@ footer:hover {
   background-color: rgb(22, 65, 135);
 }
 
+.contact-header {
+  color: #fff
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+ text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
 @media (max-width: 650px) {
   .carouselpic {
       height: 300px;
@@ -177,20 +196,4 @@ footer:hover {
   .carouselcaption {
     padding: 0 12%;
   }
-}
-
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
- text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
 }
