@@ -178,3 +178,19 @@ footer:hover {
     padding: 0 12%;
   }
 }
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+ text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
