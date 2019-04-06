@@ -93,15 +93,6 @@ h5 {
   color: #164187;
 }
 
-.carousel-indicators {
-  transform: translateY(-40%);
-  margin: 0 auto;
-}
-
-.indicator {
-  padding: 1%;
-}
-
 
 #organisation-info {
   margin: 0 1%;
