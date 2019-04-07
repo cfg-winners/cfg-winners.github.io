@@ -8,14 +8,14 @@
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 <body>
-  <ul id="nav">
+  <ul>
     <li><a href="#contact-us">Contact Us</a></li>
     <li><a href="#organisation-info">About Us</a></li>
-    <li><a href="#go-to-careers">Careers</a></li>
-    <li><a href="#header">Home</a></li>
+    <li><a href="#careers-choice">Careers</a></li>
+    <li><a href="#head">Home</a></li>
   </ul>
 
-  <header id="header">
+  <header class="white-title">
       <h1>WELCOME!</h1>
       <h4>It's time to find your dream career</h4>
   </header>
@@ -80,7 +80,7 @@
         <div class="carousel-item" data-interval="3000">
           <img src="tech.jpg" class="carouselpic" alt="TECHNOLOGY">
             <div class="carouselcaption">
-              <a href="tech.html"><h5 class="make-career-name-big">TECHNOLOGY</h5></a>
+              <a href="technology.html"><h5 class="make-career-name-big">TECHNOLOGY</h5></a>
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </div>
         </div>
@@ -201,18 +201,20 @@
         <textarea id="subject" name="subject" placeholder="Write your message.." style="height:200px"></textarea>
       </div>
     </div>
+
     <div class="row">
-      <input onclick="myFunction()" class="btn btn-primary" type="submit" value="Submit">
-
-  <script>
-  function myFunction() {
-    alert("Thanks for your response! Much appreciated, we'll get back to you shortly.");
-  }
-  </script>
-
+     <button onclick="myFunction()">Submit</button>
     </div>
   </form>
 </div>
+
+
+
+
+
+
+
+
   </footer>
 
   <script>
@@ -229,6 +231,10 @@
       if (slideIndex > slides.length) {slideIndex = 1}
       slides[slideIndex-1].style.display = "block";
       setTimeout(showSlides, 3000);
+      }
+
+      function myFunction() {
+        alert("Thanks for your response! Much appreciated, we'll get back to you shortly.");
       }
   </script>
 
