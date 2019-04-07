@@ -58,6 +58,11 @@ h1 {
   height: 30px;
 }
 
+
+.description {
+  margin-bottom: 3%;
+}
+
 .job {
   margin: auto 2%;
   margin-bottom: 10px;
@@ -124,6 +129,7 @@ p {
   height: 25px;
   color: rgb(255, 255, 255, 0.6);
   padding: 0.5%;
+  margin-bottom: 3%;
   border: 3px solid rgb(255, 255, 255, 0.6);
 }
 
@@ -162,14 +168,38 @@ footer:hover {
   margin-top: -10%;
   margin-bottom: 3%;
   border-radius: 50%;
+  box-sizing: border-box;
 }
 
-
-
-.footer-content {
+.footer-font {
   color: #ffb43d;
   box-sizing: content-box;
-  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: -2%;
+}
+
+.white-title {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+#contact-us {
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  border-radius: .25rem;
+  font-size: 1rem;
+  padding: .375rem .75rem;
 }
 
 
