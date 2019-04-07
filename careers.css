@@ -169,6 +169,11 @@ footer:hover {
   margin-bottom: 3%;
   border-radius: 50%;
   box-sizing: border-box;
+  color: #007bff;
+}
+
+.fa:hover {
+  color: #ffb43d;
 }
 
 .footer-font {
