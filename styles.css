@@ -83,12 +83,7 @@ a:active {
 #careers-choice {
   margin: 1% 1% 0 1%;
   padding: 1% 2%;
-<<<<<<< HEAD
-  background-color: rgba(255, 255, 255, 0.9);
-
-=======
-  background-color: black;
->>>>>>> 594423a5718e7a173352265d500985da217405ce
+  /*background-color: rgba(255, 255, 255, 0.9);*/
 }
 
 .carouselpic {
