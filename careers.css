@@ -12,7 +12,10 @@ header {
   font-size: 30px;
   text-align: center;
   margin: -2% -2% 0 -2%;
+}
 
+body {
+  margin: 0;
 }
 
 h1 {
@@ -25,7 +28,7 @@ h1 {
 
 #career-definition {
   text-align: center;
-  margin: auto .5%;
+  margin: auto 2%;
   margin-bottom: 10px;
   padding: 1%;
   background-color: rgb(255, 255, 255, 0.4);
@@ -56,7 +59,7 @@ h1 {
 }
 
 .job {
-  margin: auto .5%;
+  margin: auto 2%;
   margin-bottom: 10px;
   background-size: cover;
   background-position: center;
@@ -136,13 +139,10 @@ a:hover {
   color: rgb(255, 255, 255);
 }
 
-p {
-  color: #ffb43d;
-  box-sizing: content-box;
-}
+
 
 footer {
-  margin-top: 1%;
+  margin-top: 2%;
   background-color: rgb(22, 65, 135, 0.5);
   color: #fff;
   font-size: 13px;
@@ -154,7 +154,13 @@ footer:hover {
 }
 
 .white-title {
-  color: #fff
+  color: #fff;
+}
+
+.footer-content {
+  color: #ffb43d;
+  box-sizing: content-box;
+  font-size: 20px;
 }
 
 .fa {
