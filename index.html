@@ -170,10 +170,10 @@
       </div>
       <div class="col-75">
         <select id="Title" name="Title">
-          <option value="australia">Miss</option>
-          <option value="canada">Mr</option>
-          <option value="usa">Mrs</option>
-          <option value="usa">Ms</option>
+          <option value="Miss">Miss</option>
+          <option value="Mr">Mr</option>
+          <option value="Mrs">Mrs</option>
+          <option value="Ms">Ms</option>
         </select>
       </div>
     </div>
@@ -202,7 +202,14 @@
       </div>
     </div>
     <div class="row">
-      <input type="submit" value="Submit">
+      <input onclick="myFunction()" class="btn btn-primary" type="submit" value="Submit">
+
+  <script>
+  function myFunction() {
+    alert("Thanks for your response! Much appreciated, we'll get back to you shortly.");
+  }
+  </script>
+
     </div>
   </form>
 </div>
