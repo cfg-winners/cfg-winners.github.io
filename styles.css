@@ -8,14 +8,18 @@ html {
 
 header {
   padding: 24% 20%;
-  background-color: rgba(255, 255, 255, 0.3);
   width: 100%;
+  background-image: url(header.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-header:hover {
-  background-color:  rgba(255, 255, 255, 0.5);
-
+.header {
+  background-color: rgb(0, 0, 0, .5);
 }
+/*header:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}*/
 
 body {
   text-align: center;
@@ -23,8 +27,8 @@ body {
 }
 
 h1 {
-  color: #164187;
-  background-color: #ffffff;
+  color: #fff;
+
   }
 
 h2 {
@@ -39,22 +43,18 @@ p {
 
 ul {
   background-color: #ffffff;
-  list-style-type: none;
   margin: 0;
   padding: 0;
-  width: auto;
-  border: 3px solid #164187;
+  width: 100%;
+  border-bottom: 1px solid #164187;
   overflow: hidden;
-
 }
 
 li {
   display: block;
   color: #164187;
   padding:0;
-  text-decoration: none;
   margin:0;
-  list-style-type: none;
   float: right;
 }
 
@@ -65,12 +65,30 @@ li a {
   padding: 14px 16px;
 }
 
+a:hover {
+  color: #ffb43d;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+}
+
+#nav {
+  position: fixed;
+  z-index: 1;
+}
+
 
 #careers-choice {
   margin: 1% 1% 0 1%;
   padding: 1% 2%;
+<<<<<<< HEAD
   background-color: rgba(255, 255, 255, 0.9);
 
+=======
+  background-color: black;
+>>>>>>> 594423a5718e7a173352265d500985da217405ce
 }
 
 .carouselpic {
@@ -91,16 +109,15 @@ li a {
 }
 
 h5 {
-  color: #164187;
+  color: #FFFFFF;
 }
 
-.carousel-indicators {
-  transform: translateY(-40%);
-  margin: 0 auto;
-}
-
-.indicator {
-  padding: 1%;
+.make-career-name-big {
+  color: #ffb43d;
+  font-size: 40px;
+  background-color: #d4d6d8;
+  background-size: contain;
+  margin: 1% 20%;
 }
 
 
@@ -147,13 +164,31 @@ footer {
   margin-top: 1%;
   background-color: red;
   color: #fff;
-  font-size: 13px;
   padding: 5%;
 }
 
 footer:hover {
   background-color: rgb(22, 65, 135);
 }
+
+.footer-title {
+  color: #fff
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+ text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
 
 @media (max-width: 650px) {
   .carouselpic {
@@ -188,6 +223,7 @@ footer:hover {
     padding: 0 12%;
   }
 }
+<<<<<<< HEAD
 
 /* Style all font awesome icons */
 .fa {
@@ -205,3 +241,5 @@ footer:hover {
 .fa:hover {
   opacity: 0.7;
 }
+=======
+>>>>>>> 594423a5718e7a173352265d500985da217405ce
