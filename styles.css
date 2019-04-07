@@ -146,14 +146,12 @@ img.us:hover {
   padding: 0 4%;
   margin: 1%;
   text-align: center;
-  -webkit-transition: all .2s ease;
-	transition: all .2s ease;
 }
 
 
 footer {
   margin-top: 1%;
-  background-color: red;
+  background-color: rgb(22, 65, 135, .7);
   color: #fff;
   padding: 5%;
 }
@@ -162,23 +160,17 @@ footer:hover {
   background-color: rgb(22, 65, 135);
 }
 
-.footer-title {
-  color: #fff;
-}
-
 .fa {
   padding: 20px;
   font-size: 30px;
   width: 30px;
   text-align: center;
- text-decoration: none;
+  text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+  margin-top: -10%;
 }
 
-.fa:hover {
-  opacity: 0.7;
-}
 
 
 @media (max-width: 650px) {
