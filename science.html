@@ -53,6 +53,64 @@
     <a href="index.html#careers-choice" class="back-button">BACK</a>
   </div>
 
+  <footer id="contact-us">
+    <h5 class="white-title">CONTACT US</h5>
+     <p class="footer-font">Follow us on social media!</p>
+     <a href="https://en-gb.facebook.com/codefirstgirls/" class="fa fa-facebook"></a>
+     <a href="https://twitter.com/CodeFirstGirls?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+     <a href="https://www.instagram.com/codefirstgirls/p/BoXPeIrhvIO/" class="fa fa-instagram"></a>
+     <a href="https://www.codefirstgirls.org.uk/" class="fa fa-youtube"></a>
+     <a href="https://www.codefirstgirls.org.uk/" class="fa fa-slack"></a>
+     <a href="https://www.codefirstgirls.org.uk/" class="fa fa-github"></a>
+
+
+    <div class="container">
+      <form action="action_page.php">
+      <p class="footer-font">Have something to say?! Tell us!</p>
+      <div class="column">
+        <div class="col-25">
+          <label for="Title">Title</label>
+        </div>
+        <div class="col-75">
+          <select id="Title" name="Title">
+            <option value="Miss">Miss</option>
+            <option value="Mr">Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Ms">Ms</option>
+          </select>
+        </div>
+      </div>
+      <div class="column">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="column">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="column">
+        <div class="col-25">
+          <label for="subject">Message</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write your message.." style="height:200px"></textarea>
+        </div>
+      </div>
+      </form>
+    </div>
+       <div class="column">
+         <button onclick="myFunction()" class="btn btn-primary">Submit</button>
+       </div>
+  </footer>
+
   <script>
   var i = 0, text;
   text = "the intellectual and practical activity encompassing the systematic study of the structure and behaviour of the physical and natural world through observation and experiment"
