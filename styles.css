@@ -37,9 +37,8 @@ p {
   box-sizing: content-box;
 }
 
-
 /* Navbar container */
-.top-nav {
+.navbar {
   overflow: hidden;
   background-color: #333;
   z-index: 1;
@@ -77,23 +76,17 @@ p {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #ffb43d;
+  background-color: red;
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-  /*display: none;
-  position: absolute;*/
+  display: none;
+  position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  float: right;
-}
-
-.dropdown-content:hover {
-  display: block;
-  position: absolute;
 }
 
 /* Links inside the dropdown */
@@ -112,10 +105,9 @@ p {
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover /*.dropdown-content*/ {
+.dropdown:hover .dropdown-content {
   display: block;
 }
-*/
 
 
 #careers-choice {
