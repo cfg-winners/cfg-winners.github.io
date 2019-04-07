@@ -162,16 +162,20 @@ footer:hover {
   margin-top: -10%;
   margin-bottom: 3%;
   border-radius: 50%;
+  box-sizing: border-box;
 }
 
-
-
-.footer-content {
+.footer-font {
   color: #ffb43d;
   box-sizing: content-box;
   font-size: 20px;
+  text-align: center;
 }
 
+.white-title {
+  text-align: center;
+  font-size: 1.25rem;
+}
 
 
 
