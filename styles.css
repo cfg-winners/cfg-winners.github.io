@@ -79,20 +79,12 @@ a:active {
 #careers-choice {
   margin: 1% 1% 0 1%;
   padding: 1% 2%;
-  background-color: black;
+  background-color: #fff;
 }
 
 .carouselpic {
   height: 400px;
   width: 600px;
-}
-
-.carousel-item {
-  opacity: 0.6;
-}
-
-.carousel-item:hover {
-  opacity: 1;
 }
 
 .carouselcaption {
