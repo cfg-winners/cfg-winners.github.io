@@ -39,7 +39,6 @@ p {
 
 /* Navbar container */
 .navbar {
-  overflow: hidden;
   background-color: #333;
   z-index: 1;
   position: fixed;
