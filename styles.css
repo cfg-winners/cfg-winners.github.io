@@ -225,6 +225,9 @@ footer:hover {
   margin-top: -10%;
 }
 
+.fa:hover {
+  color: #ffb43d;
+}
 
 
 @media (max-width: 650px) {
