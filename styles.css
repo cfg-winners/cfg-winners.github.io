@@ -83,7 +83,12 @@ a:active {
 #careers-choice {
   margin: 1% 1% 0 1%;
   padding: 1% 2%;
+<<<<<<< HEAD
+  background-color: rgba(255, 255, 255, 0.9);
+
+=======
   background-color: black;
+>>>>>>> 594423a5718e7a173352265d500985da217405ce
 }
 
 .carouselpic {
@@ -157,7 +162,7 @@ img.us:hover {
 
 footer {
   margin-top: 1%;
-  background-color: rgb(22, 65, 135, 0.5);
+  background-color: red;
   color: #fff;
   padding: 5%;
 }
@@ -218,3 +223,23 @@ footer:hover {
     padding: 0 12%;
   }
 }
+<<<<<<< HEAD
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+ text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+=======
+>>>>>>> 594423a5718e7a173352265d500985da217405ce
