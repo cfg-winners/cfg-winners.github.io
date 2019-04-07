@@ -27,17 +27,7 @@
         We at <strong>NAMEEEEEE</strong> are here to help get you started on the perfect career path for you.
         <br /><br />Simply click on the career name below to find out more.</p>
 
-  <div id="mycarousel"class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-     <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-     <li data-target="#mycarousel" data-slide-to="1"></li>
-     <li data-target="#mycarousel" data-slide-to="2"></li>
-     <li data-target="#mycarousel" data-slide-to="3"></li>
-     <li data-target="#mycarousel" data-slide-to="4"></li>
-     <li data-target="#mycarousel" data-slide-to="5"></li>
-     <li data-target="#mycarousel" data-slide-to="6"></li>
-     <li data-target="#mycarousel" data-slide-to="7"></li>
-   </ol>
+      <div id="mycarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="carouselpic" src="art.jpg" alt="ART">
@@ -91,20 +81,7 @@
             </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-
-      <div id="controls">
-      <a class="carousel-control-prev" href="#carouselcaption" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselcaption" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-
     </div>
-  </div>
   </div>
   <br />
 
@@ -166,48 +143,48 @@
      <a href="https://www.codefirstgirls.org.uk/" class="fa fa-github"></a>
 
 
-     <div class="container">
-  <form action="action_page.php">
-    Have something to say?! Tell us!
-    <div class="row">
-      <div class="col-25">
-        <label for="Title">Title</label>
+    <div class="container">
+      <form action="action_page.php">
+      Have something to say?! Tell us!
+      <div class="row">
+        <div class="col-25">
+          <label for="Title">Title</label>
+        </div>
+        <div class="col-75">
+          <select id="Title" name="Title">
+            <option value="Miss">Miss</option>
+            <option value="Mr">Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Ms">Ms</option>
+          </select>
+        </div>
       </div>
-      <div class="col-75">
-        <select id="Title" name="Title">
-          <option value="Miss">Miss</option>
-          <option value="Mr">Mr</option>
-          <option value="Mrs">Mrs</option>
-          <option value="Ms">Ms</option>
-        </select>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
       </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Message</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write your message.." style="height:200px"></textarea>
+        </div>
+      </div>
+      </form>
     </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">First Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">Last Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Message</label>
-      </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write your message.." style="height:200px"></textarea>
-      </div>
-    </div>
-  </form>
-</div>
        <div class="row">
          <button onclick="myFunction()"class="btn btn-primary">Submit</button>
        </div>
