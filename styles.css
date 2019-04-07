@@ -43,7 +43,6 @@ p {
   z-index: 1;
   position: fixed;
   width: 100%;
-  color: #164187;
 }
 
 /* Links inside the navbar */
@@ -54,6 +53,11 @@ p {
   text-align: center;
   padding: 1%;
   text-decoration: none;
+  color: #164187;
+}
+
+.navbar a:active {
+color: red;
 }
 
 /* The dropdown container */
@@ -68,8 +72,8 @@ p {
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
-  padding: 0px;
+  color: #164187;
+  padding: 0;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -98,7 +102,12 @@ p {
   text-decoration: none;
   display: block;
   text-align: left;
-  padding-left: 3%;
+  padding-left: 5%;
+  color: #164187;
+}
+
+.dropdown-content a:active {
+  color: red;
 }
 
 /* Add a grey background color to dropdown links on hover */
