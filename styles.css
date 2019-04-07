@@ -57,7 +57,7 @@ p {
 }
 
 /* The dropdown container */
-.dropdown {
+.dropdown-content {
   float: left;
   overflow: hidden;
 }
