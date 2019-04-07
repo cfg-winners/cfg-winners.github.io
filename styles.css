@@ -69,7 +69,8 @@ li a {
 #careers-choice {
   margin: 1% 1% 0 1%;
   padding: 1% 2%;
-  background-color: red;
+  background-color: rgba(255, 255, 255, 0.9);
+
 }
 
 .carouselpic {
@@ -198,6 +199,7 @@ footer:hover {
   margin: 5px 2px;
   border-radius: 50%;
 }
+
 
 /* Add a hover effect if you want */
 .fa:hover {
