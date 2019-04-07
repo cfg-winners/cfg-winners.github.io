@@ -8,14 +8,14 @@
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 <body>
-  <ul>
+  <ul id="nav">
     <li><a href="#contact-us">Contact Us</a></li>
     <li><a href="#organisation-info">About Us</a></li>
-    <li><a href="#careers-choice">Careers</a></li>
-    <li><a href="#head">Home</a></li>
+    <li><a href="#go-to-careers">Careers</a></li>
+    <li><a href="#header">Home</a></li>
   </ul>
 
-  <header class="white-title">
+  <header id="header">
       <h1>WELCOME!</h1>
       <h4>It's time to find your dream career</h4>
   </header>
@@ -170,10 +170,10 @@
       </div>
       <div class="col-75">
         <select id="Title" name="Title">
-          <option value="australia">Miss</option>
-          <option value="canada">Mr</option>
-          <option value="usa">Mrs</option>
-          <option value="usa">Ms</option>
+          <option value="Miss">Miss</option>
+          <option value="Mr">Mr</option>
+          <option value="Mrs">Mrs</option>
+          <option value="Ms">Ms</option>
         </select>
       </div>
     </div>
@@ -202,7 +202,14 @@
       </div>
     </div>
     <div class="row">
-      <input type="submit" value="Submit">
+      <input onclick="myFunction()" class="btn btn-primary" type="submit" value="Submit">
+
+  <script>
+  function myFunction() {
+    alert("Thanks for your response! Much appreciated, we'll get back to you shortly.");
+  }
+  </script>
+
     </div>
   </form>
 </div>

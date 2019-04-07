@@ -14,8 +14,8 @@ header {
   background-size: cover;
 }
 
-.header {
-  background-color: rgb(0, 0, 0, .5);
+h4 {
+  color: #fff;
 }
 
 body {
@@ -35,6 +35,11 @@ h2 {
 p {
   color: #ffb43d;
   box-sizing: content-box;
+}
+
+#nav {
+  position: fixed;
+  z-index: 1;
 }
 
 ul {
@@ -70,15 +75,11 @@ a:active {
   color: red;
 }
 
-#nav {
-  position: fixed;
-  z-index: 1;
-}
-
 
 #careers-choice {
   margin: 1% 1% 0 1%;
   padding: 1% 2%;
+  background-color: black;
 }
 
 .carouselpic {
@@ -133,6 +134,7 @@ img.us {
 	transition: all .2s ease;
 }
 
+
 img.us:hover {
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
@@ -151,7 +153,7 @@ img.us:hover {
 
 footer {
   margin-top: 1%;
-  background-color: rgb(22, 65, 135, 0.7);
+  background-color: red;
   color: #fff;
   padding: 5%;
 }
@@ -160,20 +162,23 @@ footer:hover {
   background-color: rgb(22, 65, 135);
 }
 
+.footer-title {
+  color: #fff;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
   width: 30px;
   text-align: center;
-  text-decoration: none;
-  margin: 0 2px;
-  margin-top: -10%;
-  margin-bottom: 3%;
+ text-decoration: none;
+  margin: 5px 2px;
   border-radius: 50%;
 }
 
-
-
+.fa:hover {
+  opacity: 0.7;
+}
 
 
 @media (max-width: 650px) {
