@@ -130,17 +130,14 @@ color: red;
   background-color: #0a377f;
 }
 
+#emphasise-this {
+  border: 3px solid #ffb43d;
+  padding: 1%;
+}
+
 .carouselpic {
   height: 400px;
   width: 600px;
-}
-
-.carousel-item {
-  opacity: 0.6;
-}
-
-.carousel-item:hover {
-  opacity: 1;
 }
 
 .carouselcaption {
@@ -159,6 +156,8 @@ h5 {
   background-color: #ffffff;
   background-size: contain;
   margin: 1% 20%;
+  padding: 1% auto;
+  border: 3px solid #ffb43d;
 }
 
 .carousel-item a {
