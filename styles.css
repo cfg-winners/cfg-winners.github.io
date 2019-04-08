@@ -135,14 +135,6 @@ color: red;
   width: 600px;
 }
 
-.carousel-item {
-  opacity: 0.6;
-}
-
-.carousel-item:hover {
-  opacity: 1;
-}
-
 .carouselcaption {
   padding: 0 10%;
 }
