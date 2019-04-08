@@ -85,8 +85,8 @@ h1 {
 .job:before {
   content: attr(data-text);
   text-align: center;
-  line-height: 400%;
   font-size: 25px;
+  line-height: 500%;
 }
 
 .job:before,
